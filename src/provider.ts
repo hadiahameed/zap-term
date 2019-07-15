@@ -159,7 +159,7 @@ export async function doQuery(web3: any): Promise<void> {
 	const query: string = await ask('Query> ');
 
 	console.log('Querying provider...');
-	const txid: any = await subscriber.queryData({ provider: provider_address, query, endpoint, endpointParams, gas: DEFAULT_GAS.toNumber() });
+	const txid: any = await subscriber.queryData({ provider: provider_address, query, endpoint, endpointParams, gas: DEFAULT_GAS });
 	console.log('Queried provider. Transaction Hash:', typeof txid == 'string' ? txid : txid.transactionHash);
 
 	const _id = txid.events['Incoming'].returnValues['id'];
