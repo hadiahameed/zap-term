@@ -2,9 +2,11 @@
 
 A Cli tool to interact with the Zap api.
 
-## Installing
-
-	$ yarn add zap-term
+## Installing locally
+  - clone the repository zap-term
+  - Navigate to the directory
+  - Run `yarn`
+  - Run `yarn start`
 
 ## Running
 	- From Source:
