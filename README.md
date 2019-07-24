@@ -2,11 +2,47 @@
 
 A Cli tool to interact with the Zap api.
 
-## Installing locally
-  - clone the repository zap-term
-  - Navigate to the directory
-  - Run `yarn`
-  - Run `yarn start`
+## Installing locally:
+  + `mkdir zap-term-dir`
+  + `cd zap-term-dir`
+  + git clone https://github.com/hadiahameed/zap-term.git
+  + `cd zap-term`
+  + `yarn`
+  + clone the repository zap-term
+  + Navigate to the directory
+  + `yarn`
+  + `yarn start`
+  + `npm run build`
+  + `cd ..`
+  + `node zap-term`
+
+## Running zap-term to query an oracle:
+  Once zap-term starts running, follow the instructions below:
+  + Choices: Main or KOVAN: Use KOVAN
+  + Enter network url,empty for infura default: (Leave it blank, press Enter)
+  + Whats your mnemonic: Enter your MetaMask mnemonic
+  + Choose 'I'm a Subscriber'
+  + Choose 'Approve Provider'
+  + Provider's address: Add your MetaMask address
+  + Zap amount to approve: 10
+  + Enter custom gasPrice: (Leave it blank, press Enter)
+  + Choose 'I'm a Subscriber'
+  + Choose 'Bond To Endpoint'
+  + Provider's address: Add your MetaMask address
+  + Choose the oracle from the list e.g. stocks (if you're running the stocks oracle)
+  + Amount of Dots to bond: 1
+  + Will cost x ZAP, continue ? y
+  + Enter custom gasPrice: (Leave it blank, press Enter)
+  + Choose 'I'm a Subscriber'
+  + Choose 'Query'
+  + Provider Address: Add your MetaMask address
+  + Choose the oracle from the list e.g. stocks (if you're running the stocks oracle)
+  + query: stocks (e.g. if you're running the stocks oracle)
+  + Param (empty to finish): AAPL (if you want to know Apple's stock price)
+  + Param (empty to finish): FB (if you want to know Facebook's stock price)
+  + Param (empty to finish): (Leave it blank, press Enter)
+  + Enter custom gasPrice: (Leave it blank, press Enter)
+
 
 ## Running
 	- From Source:
