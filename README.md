@@ -8,10 +8,6 @@ A Cli tool to interact with the Zap api.
   + git clone https://github.com/hadiahameed/zap-term.git
   + `cd zap-term`
   + `yarn`
-  + clone the repository zap-term
-  + Navigate to the directory
-  + `yarn`
-  + `yarn start`
   + `npm run build`
   + `cd ..`
   + `node zap-term`
